@@ -1,7 +1,9 @@
 # Doctrine2 Behaviors
 
+[![Latest Stable Version](https://poser.pugx.org/knplabs/doctrine-behaviors/v/stable.svg)](https://packagist.org/packages/knplabs/doctrine-behaviors)
+[![Latest Stable Version](https://poser.pugx.org/knplabs/doctrine-behaviors/v/stable.svg)](https://packagist.org/packages/knplabs/doctrine-behaviors)
+[![Latest Stable Version](https://poser.pugx.org/knplabs/doctrine-behaviors/v/stable.svg)](https://packagist.org/packages/knplabs/doctrine-behaviors)
 [![Build Status](https://secure.travis-ci.org/KnpLabs/DoctrineBehaviors.png)](http://travis-ci.org/KnpLabs/DoctrineBehaviors)
-
 
 This php 5.4+ library is a collection of traits
 that add behaviors to Doctrine2 entites and repositories.
@@ -17,6 +19,7 @@ It currently handles:
  * [geocodable](#geocodable)
  * [filterable](#filterable)
  * [sluggable](#sluggable)
+ * [Tokenable](#tokenable)
 
 ## Notice:
 
