@@ -79,7 +79,7 @@ class TokenableSubscriber extends AbstractSubscriber
     }
 
     /**
-     * Checks if entity is sluggable
+     * Checks if entity is tokenable
      *
      * @param ClassMetadata $classMetadata The metadata
      *
