@@ -509,6 +509,33 @@ class BlogPost
 }
 ```
 
+<a name="tokenable" id="tokenable"></a>
+### tokenable
+
+Tokenable generates token (uniqueness is not guaranteed) for an entity.
+Will automatically generate on update/persist (you can enable the on update generation by overriding `getRegenerateTokenOnUpdate` to return true.
+You can also override the token base from the default hyphen by overriding `getTokenBase`.
+Token generation algo can be changed by overriding `generateTokenValue`.
+```php
+<?php
+
+use Doctrine\ORM\Mapping as ORM;
+use Knp\DoctrineBehaviors\Model as ORMBehaviors;
+
+/**
+ * @ORM\Entity
+ */
+class BlogPost
+{
+    use ORMBehaviors\Tokenable\Tokenable;
+
+    public function getRegenerateTokenOnUpdate()
+    {
+        return true;
+    }
+}
+```
+
 <a name="filterable" id="filterable"></a>
 ### filterable:
 
